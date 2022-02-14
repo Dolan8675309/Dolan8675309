@@ -1,0 +1,40 @@
+
+<h1 align=center>t3a3-forms-Dylan2.html<h1/>
+<font-color=blue> Prove you can use: Forms</font>
+
+  <h5>Version 0.0.4</h5>
+  
+The following are all form elements (add to thenm):<br>
+  
+Enter your first Name:<input type=text id="mytext01" value="Dylan"><br>
+Checkbox: <br>
+Beef:<input type=checkbox><br>
+Veggy: <input type=checlbox><br>
+Radion buttons:<br>
+  107.7 <input type=radio name="myRad01" value=""><br>
+  83.5 <input type=radio name="myRad01" value=""><br>
+  
+hidden:<input type=hidden><br>
+File:<input type=File><br>
+reset:<input type="reset"><br>
+Submit (advanced)<input type=submit><br>
+  
+  Button: <input type=button calue="click" onclick="{
+    document.GetElementById('myArea01').value = 'cool'
+}"><br>
+textarea:<br>
+<textarea id="MyArea01" cols=60 rows=5 > Type here: </textarea><br>
+  
+Select box:<br>
+<select id="MySelect01" size=2>
+<option=value'myOne'>One
+<option=value'myTwo'>Two
+<option=value'myThree'>three
+</select>
+</form>
+
+
+
+
+    
+  
